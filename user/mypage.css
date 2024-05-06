@@ -1,0 +1,183 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'PyeongchangFont';
+    src: url('/PyeongChang-Bold.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    text-align: center;
+    font-family: 'PyeongchangFont';
+    background-color: #f9f9fb;
+    display: flex;
+    flex-direction: column;
+}
+
+body :nth-child(2n) {
+    align-self: center;
+}
+
+.right_area a {
+    text-decoration: none;
+}
+
+
+.gnb {
+    border-top: 2px solid #e2e2e2;
+    border-bottom: 2px solid #e2e2e2;
+    height: 70px;
+    background-color: white;
+}
+
+.gnb_inner {
+    margin-left: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: inherit;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_area {
+    margin-left: 50px;
+}
+
+.button {
+    border: 1px solid black;
+    margin: 5px;
+    text-decoration-line: none;
+    text-decoration: none;
+
+}
+
+
+
+.nav_board a {
+    font-weight: 800;
+    font-size: large;
+    margin: 20px;
+
+}
+
+.sc-chart {
+    display: flex;
+    width: fit-content;
+    justify-content: flex-start;
+}
+
+.chart_wrap {
+    display: flex;
+    height: 400px;
+    width: 8cm;
+    padding: 5px;
+    background-color: aliceblue;
+    margin: 1cm;
+    border: 1px solid black;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.chart_title {
+    font-weight: bold;
+    font-size: large;
+}
+
+
+
+
+.sc-board {
+    display: flex;
+    width: fit-content;
+    align-items: start
+}
+
+.stock_board {
+    flex-direction: row;
+    flex: 1;
+    flex-basis: auto;
+    width: 800px;
+    height: auto;
+    padding: 2px;
+    background-color: white;
+    margin-top: 30px;
+}
+
+
+thead {
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    z-index: -1;
+}
+
+table {
+    width: inherit;
+    border-collapse: collapse
+}
+
+footer {
+    background-color: #f9f9fb;
+    height: 50px;
+    margin-top: 50px;
+    padding-top: 50px;
+    border-top: #e2e2e2 solid 1px;
+}
+
+.board_title {
+    background-color: #FF5c5c;
+    padding: 5px;
+    font-size: large;
+}
+
+
+a {
+    text-decoration: none black;
+    color: black;
+    cursor: pointer;
+}
+
+#sc-board {
+    display: flex;
+    flex-direction: column;
+}
+
+.list_option {
+    margin-top: 1cm;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bottom_paging_box_iconpaging a {
+    padding-left: 6px;
+}
+
+.mypage_wrap {
+    padding: 5px;
+    width: 600px;
+    height: 600px;
+    border: #e2e2e2 1px solid;
+
+}
+
+.info_list {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.user_info {
+    height: 40px;
+
+}
+
+.board_list {
+    color: #FF5c5c;
+}

@@ -1,0 +1,18 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "192.168.101.129",
+            "port": 3306,
+            "driver": "MariaDB",
+            "name": "root",
+            "database": "rising_db",
+            "username": "root",
+            "password": "dusqhd1djr!"
+        }
+    ]
+}
